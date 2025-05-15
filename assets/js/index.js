@@ -17,4 +17,6 @@ const getRecipes = async (URL) => {
 };
 
 const recipes = await getRecipes(URL);
+
+getRecipeCard(recipes, cardParentContainer, createElement);
 console.log(recipes);
